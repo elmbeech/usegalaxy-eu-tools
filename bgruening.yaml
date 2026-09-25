@@ -20,6 +20,11 @@ tools:
     tool_panel_section_label: Machine Learning
 
 
+# CHEMICALTOOLBOX
+  - name: simorgh
+    owner: bgruening
+    tool_panel_section_label: ChemicalToolBox
+
 # "CONVERT FORMATS"
 
   - name: glimmer_glimmer_to_gff
@@ -58,7 +63,16 @@ tools:
   - name: mirge3_build_database
     owner: bgruening
 
+# PHYLOGENETICS
+  - name: grapetree
+    owner: bgruening
+    tool_panel_section_label: Phylogenetics
+
 # RNA ANALYSIS
+  - name: cleaverna
+    owner: bgruening
+    tool_panel_section_label: RNA Analysis
+
   - name: mirge3
     owner: bgruening
     tool_panel_section_label: RNA Analysis
@@ -314,6 +328,10 @@ tools:
     
 # GRAPH/DISPLAY DATA
 
+  - name: datavzrd
+    owner: bgruening
+    tool_panel_section_label: Graph/Display Data
+
   - name: jbrowse2
     owner: fubar
     tool_panel_section_label: Graph/Display Data
@@ -349,6 +367,10 @@ tools:
     tool_panel_section_label: Imaging
 
   - name: coco_annotation_visualizer
+    owner: bgruening
+    tool_panel_section_label: Imaging
+
+  - name: sem_analysis
     owner: bgruening
     tool_panel_section_label: Imaging
 
@@ -503,6 +525,10 @@ tools:
     tool_panel_section_label: Machine Learning
 
   - name: sklearn_train_test_split
+    owner: bgruening
+    tool_panel_section_label: Machine Learning
+
+  - name: tabicl
     owner: bgruening
     tool_panel_section_label: Machine Learning
 
@@ -677,6 +703,26 @@ tools:
 # OTHER TOOLS
 
 
+  - name: pynxtools_peak_finding
+    owner: bgruening
+    tool_panel_section_label: Other Tools
+
+  - name: new_fave_extract
+    owner: bgruening
+    tool_panel_section_label: Other Tools
+
+  - name: langchain_text_splitters
+    owner: bgruening
+    tool_panel_section_label: Other Tools
+
+  - name: ketos_train
+    owner: bgruening
+    tool_panel_section_label: Other Tools
+
+  - name: ketos_compile
+    owner: bgruening
+    tool_panel_section_label: Other Tools
+
 # PEAK CALLING
 
   - name: dewseq
@@ -698,6 +744,10 @@ tools:
 # SINGLE-CELL
 
   - name: 10x_bamtofastq
+    owner: bgruening
+    tool_panel_section_label: Single-cell
+
+  - name: doubletfinder
     owner: bgruening
     tool_panel_section_label: Single-cell
 
@@ -802,6 +852,10 @@ tools:
     owner: bgruening
     tool_panel_section_label: Text Manipulation
 
+
+  - name: yq
+    owner: bgruening
+    tool_panel_section_label: Text Manipulation
 
 # VARIANT CALLING
 

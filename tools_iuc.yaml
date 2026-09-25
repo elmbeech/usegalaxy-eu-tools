@@ -81,6 +81,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Annotation
 
+  - name: clinker
+    owner: iuc
+    tool_panel_section_label: Annotation
+
   - name: clipkit
     owner: iuc
     tool_panel_section_label: Annotation
@@ -302,11 +306,51 @@ tools:
     owner: iuc
     tool_panel_section_label: Annotation
 
+  - name: haplotype_window_sheet
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: haplotype_window_caller
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: haplotype_pyeuk
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: haplotype_derive_panel
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: haplotype_define_windows
+    owner: iuc
+    tool_panel_section_label: Annotation
+
   - name: hicap
     owner: iuc
     tool_panel_section_label: Annotation
 
   - name: hicstuff_pipeline
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: impg_stats
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: impg_similarity
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: impg_refine
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: impg_query
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: impg_partition
     owner: iuc
     tool_panel_section_label: Annotation
 
@@ -342,11 +386,31 @@ tools:
     owner: iuc
     tool_panel_section_label: Annotation
 
+  - name: pling
+    owner: iuc
+    tool_panel_section_label: Annotation
+
   - name: psauron
     owner: iuc
     tool_panel_section_label: Annotation
 
   - name: neighbors
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: pyeuk_report
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: pyeuk_process_ont
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: pyeuk_generate_sheet
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: pyeuk_eukaryotyping
     owner: iuc
     tool_panel_section_label: Annotation
 
@@ -1239,6 +1303,10 @@ tools:
     tool_panel_section_label: BED
 
 # CHEMICALTOOLBOX
+  - name: b2btools_multiple_sequence_alignment
+    owner: iuc
+    tool_panel_section_label: ChemicalToolBox
+
   - name: enzywizard_aaprops
     owner: iuc
     tool_panel_section_label: ChemicalToolBox
@@ -2832,6 +2900,10 @@ tools:
     owner: devteam
     tool_panel_section_label: Mapping
 
+  - name: minibwa
+    owner: iuc
+    tool_panel_section_label: Mapping
+
   - name: minimap2
     owner: iuc
     tool_panel_section_label: Mapping
@@ -2965,6 +3037,10 @@ tools:
 
   - name: data_manager_kaiju
     owner: iuc
+
+  - name: metacoag
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
 
   - name: mothur_taxonomy_to_krona
     owner: iuc
@@ -5405,6 +5481,42 @@ tools:
     owner: iuc
     tool_panel_section_label: Phylogenetics
 
+  - name: hyphaeon_temporal
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: hyphaeon_splits
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: hyphaeon_phenotype
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: hyphaeon_meme
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: hyphaeon_list_models
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: hyphaeon_filter
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: hyphaeon_epistasis
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: hyphaeon_dms
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: hyphaeon_disease
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
   - name: hyphy_absrel
     owner: iuc
     tool_panel_section_label: Phylogenetics
@@ -5773,6 +5885,10 @@ tools:
     owner: iuc
     tool_panel_section_label: RNA Analysis
 
+  - name: cpc2
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
   - name: crosscontamination_barcode_filter
     owner: iuc
     tool_panel_section_label: RNA Analysis
@@ -5897,6 +6013,10 @@ tools:
     owner: iuc
     tool_panel_section_label: RNA Analysis
 
+  - name: proseg
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
   - name: psiclass
     owner: iuc
     tool_panel_section_label: RNA Analysis
@@ -5910,6 +6030,10 @@ tools:
     tool_panel_section_label: RNA Analysis
 
   - name: recount3
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
+  - name: rectanglepy
     owner: iuc
     tool_panel_section_label: RNA Analysis
 
@@ -6418,6 +6542,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Single-cell
 
+  - name: lemur
+    owner: iuc
+    tool_panel_section_label: Single-cell
+
   - name: sceasy_convert
     owner: iuc
     tool_panel_section_label: Single-cell
@@ -6886,6 +7014,10 @@ tools:
     tool_panel_section_label: Text Manipulation
 
   - name: sqlite_to_tabular
+    owner: iuc
+    tool_panel_section_label: Text Manipulation
+
+  - name: stanza_nlp
     owner: iuc
     tool_panel_section_label: Text Manipulation
 
@@ -7424,6 +7556,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Variant Calling
 
+  - name: pixy
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+
   - name: plink
     owner: iuc
     tool_panel_section_label: Variant Calling
@@ -7870,6 +8006,9 @@ tools:
   - name: data_manager_metaphlan_database_downloader
     owner: iuc
 
+  - name: data_manager_minibwa_index_builder
+    owner: iuc
+
   - name: data_manager_ncbi_taxonomy_sqlite
     owner: iuc
 
@@ -7897,6 +8036,9 @@ tools:
   - name: data_manager_primer_scheme_bedfiles
     owner: iuc
 
+  - name: data_manager_repeatmasker
+    owner: iuc
+
   - name: data_manager_samestr
     owner: iuc
 
@@ -7910,6 +8052,9 @@ tools:
     owner: devteam
 
   - name: data_manager_semibin
+    owner: iuc
+
+  - name: data_manager_stanza_models
     owner: iuc
 
   - name: data_manager_transvar_annotations
