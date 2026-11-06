@@ -2,6 +2,7 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
+  - 8848455c0270
   - de0f7e0a3896
   - fb723c531be5
 - name: fastqc
@@ -70,3 +71,7 @@ tools:
   owner: crs4
   revisions:
   - e9005d1f3cfd
+- name: megahit
+  owner: iuc
+  revisions:
+  - ab208c87d973
